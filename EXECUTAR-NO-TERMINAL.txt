@@ -1,0 +1,65 @@
+═══════════════════════════════════════════════════════════════
+🚀 COMANDO ÚNICO PARA EXECUTAR NO TERMINAL DO AAPANEL
+═══════════════════════════════════════════════════════════════
+
+PASSO 1: Acesse o Terminal
+---------------------------
+URL: https://64.227.158.157:28474/3ef081fd
+Login: hikemejv
+Senha: ae97ad69
+
+Clique em "Terminal" no menu lateral esquerdo
+
+
+PASSO 2: Cole este comando único
+---------------------------------
+
+bash <(curl -sL https://raw.githubusercontent.com/privadokauan2020-cpu/slimsoda-vsl/claude/epic-merkle-4d1c4c/deploy-slimsoda.sh)
+
+
+OU SE PREFERIR (comando local):
+-------------------------------
+
+cd /tmp && \
+wget https://raw.githubusercontent.com/privadokauan2020-cpu/slimsoda-vsl/claude/epic-merkle-4d1c4c/deploy-slimsoda.sh && \
+chmod +x deploy-slimsoda.sh && \
+./deploy-slimsoda.sh
+
+
+═══════════════════════════════════════════════════════════════
+O QUE O SCRIPT FAZ AUTOMATICAMENTE:
+═══════════════════════════════════════════════════════════════
+
+✅ Remove a proteção de senha do Nginx
+✅ Faz backup da configuração antes de modificar
+✅ Testa a configuração antes de aplicar
+✅ Clona o repositório do GitHub
+✅ Faz deploy dos arquivos HTML
+✅ Ajusta permissões (www:www)
+✅ Configura SSL/HTTPS com Let's Encrypt
+✅ Recarrega o Nginx
+✅ Mostra verificação final
+
+
+═══════════════════════════════════════════════════════════════
+RESULTADO ESPERADO:
+═══════════════════════════════════════════════════════════════
+
+🌐 Sites acessíveis SEM senha:
+   • https://slimsodafitdrink.store
+   • https://slimsodafitdrink.store/cognihoney-pdp.html
+   • https://slimsodafitdrink.store/cognihoney19,99.html
+
+
+═══════════════════════════════════════════════════════════════
+EM CASO DE ERRO:
+═══════════════════════════════════════════════════════════════
+
+Se o SSL falhar, configure manualmente no AAPanel:
+1. Website → slimsodafitdrink.store
+2. Aba SSL
+3. Let's Encrypt
+4. Marcar domínio e clicar em Apply
+
+
+═══════════════════════════════════════════════════════════════
